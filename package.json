@@ -1,0 +1,32 @@
+{
+  "name": "@azroberts/easy-firebase-admin",
+  "version": "1.0.0",
+  "description": "A firebase admin wrapper to simplify setup and initializatio",
+  "keywords": [
+    "firebase"
+  ],
+  "homepage": "https://github.com/azroberts8/easy-firebase-admin#readme",
+  "bugs": {
+    "url": "https://github.com/azroberts8/easy-firebase-admin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azroberts8/easy-firebase-admin.git"
+  },
+  "license": "ISC",
+  "author": "Andrew Roberts",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
