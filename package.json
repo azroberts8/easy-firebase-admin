@@ -1,7 +1,7 @@
 {
   "name": "@azroberts/easy-firebase-admin",
   "version": "1.0.0",
-  "description": "A firebase admin wrapper to simplify setup and initializatio",
+  "description": "A firebase admin wrapper to simplify setup and initialization",
   "keywords": [
     "firebase"
   ],
