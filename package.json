@@ -1,9 +1,13 @@
 {
   "name": "@azroberts/easy-firebase-admin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A firebase admin wrapper to simplify setup and initialization",
   "keywords": [
-    "firebase"
+    "firebase",
+    "env",
+    "environment variables",
+    "authentication",
+    "admin"
   ],
   "homepage": "https://github.com/azroberts8/easy-firebase-admin#readme",
   "bugs": {
@@ -24,9 +28,13 @@
     }
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "tsc && node test.js"
   },
   "dependencies": {
+    "@types/node": "^22.14.1",
+    "dotenv": "^16.5.0",
+    "firebase-admin": "^13.2.0",
     "typescript": "^5.8.3"
   }
 }
